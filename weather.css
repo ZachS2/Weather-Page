@@ -28,21 +28,59 @@ body {
     margin-right: auto;
     border-radius: 18px;
 }
+.current-stats h1 {
+    color: white;
+    padding-top: 1.5cm;
+    padding-left: 1.5cm;
+    font-size: 38pt;
+    text-align: center;
+}
+#conditions {
+    filter: invert(5);
+    height: 1.3cm;
+    width: 1.3cm;
+}
+.current-stats h4 {
+    color: white;
+    text-align: center;
+}
 .main-forecast {
     border: 1mm solid white;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    margin-top: 1in;
     width: 15.3in;
     padding-top: 1cm;
     padding-bottom: 1cm;
-    align-content: center;
     border-radius: 18px;
+    padding-left: 1.5cm;
+    padding-right: auto;
+}
+.main-forecast h3 {
+    text-align: center;
+    padding-bottom: 1cm;
 }
 #day {
     background-color: rgb(25, 133, 175);
     width: 1.8in;
     height: 2.7in;
     display: inline-flex;
-    text-align: center;
     border-radius: 15px;
+    text-align: center;
+    margin-left: 2mm;
+    margin-right: 2mm;
+}
+#day svg {
+    height: 1.5cm;
+    width: auto;
+    margin: auto;
+} 
+.map-section {
+    background-color: white;
+    width: 8in;
+    height: 5in;
+    border-radius: 18px;
+    margin-top: 1in;
+    margin-bottom: 3in;
+    margin-left: 2.5in;
+    text-align: center;
 }
